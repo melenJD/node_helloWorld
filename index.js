@@ -12,7 +12,7 @@ app.get('/hello/:nameParam', function(req, res){
   res.render('hello', {name:req.params.nameParam});
 });
 
-var port = 80;
+var port = 3000;
 app.listen(port, function(){
   console.log('Server Open');
 });
